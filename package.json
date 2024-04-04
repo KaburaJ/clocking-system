@@ -1,0 +1,21 @@
+{
+  "name": "GSMDataApiWithSql",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "serve": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.3",
+    "sequelize": "^6.32.1",
+    "swagger-ui-express": "^5.0.0",
+    "tedious": "^16.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
